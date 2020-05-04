@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:4300'); 
+var socket = io.connect('https://alovelesh-video-demo.herokuapp.com'); 
 
 var answersFrom = {}, offer;
 var peerConnection = window.RTCPeerConnection ||
